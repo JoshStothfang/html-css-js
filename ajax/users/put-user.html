@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Post User</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/ajax.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/put-user.js"></script>
+</head>
+<body onload="loaded()">
+    <table>
+        <tbody>
+            <tr>
+                <th>Id:</th>
+                <td><input id="id" disabled></td>
+            </tr>
+            <tr>
+                <th>First Name:</th>
+                <td><input id="firstname"></td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td><input id="lastname"></td>
+            </tr>
+            <tr>
+                <th>Username:</th>
+                <td><input id="username"></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input id="password" type="password"></td>
+            </tr>
+            <tr>
+                <th>Phone:</th>
+                <td><input id="phone"></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input id="email"></td>
+            </tr>
+            <tr>
+                <th>Reviewer?:</th>
+                <td><input id="reviewer" type="checkbox"></td>
+            </tr>
+            <tr>
+                <th>Admin?:</th>
+                <td><input id="admin" type="checkbox"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="save()">Put User</button>
+</body>
+</html>

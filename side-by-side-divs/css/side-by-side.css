@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+div {
+    border: 1px solid red;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    min-height: 200px;
+}
+.right-side {
+    right: 0;
+}
+.whole-page {
+    width: 100%;
+}
